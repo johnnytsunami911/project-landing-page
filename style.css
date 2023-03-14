@@ -80,7 +80,7 @@ header {
     color: #0088A9;
 }
 
-button {
+.nav-button {
     margin-left: 20px;
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
@@ -90,7 +90,7 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+.nav-button:hover {
     background-color: rgba(0, 136, 169, 0.8);
 }
 
@@ -131,12 +131,12 @@ h1 {
     ;
 }
 
-.container {
+.container-one {
     display: flex;
     align-items: center;
     justify-content: center;
     height: auto;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
@@ -154,6 +154,76 @@ h1 {
     height: 200px;
 }
 
+.container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    text-align: center;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    width: 500px;
+}
+
+.quote-two {
+    text-align: end;
+    width: 500px;
+}
+
+.cta-container {
+    margin: 100px auto;
+    width: 500px;
+}
+
+.cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0088A9;
+    color: #e5e7eb;
+    border-radius: 10px;
+    margin: 100px auto;
+    max-width: 60%;
+}
+
+.cta-left {
+    margin: 25px auto;
+}
+
+.cta-right {
+    padding-right: 100px;
+}
+
+.cta-button {
+    background-color: #e5e7eb;
+    color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+    padding: 9px 25px;
+}
+
+
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    padding: 70px 0;
+
+
+}
 /* Make images easier to work with */
 img,
 picture {
